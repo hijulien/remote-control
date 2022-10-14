@@ -181,7 +181,9 @@ function createWindow() {
         }
     });
 
-    mainWindow.loadURL(path.join(__dirname, './build/index.html'));
+    // mainWindow.loadURL(path.join(__dirname, './build/index.html'));
+    mainWindow.loadURL('http://localhost:3000');
+    
 }
 
 
